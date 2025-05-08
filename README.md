@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# 🏮 Chasing Dreams 居酒屋網站 — USR 計畫專案
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+此專案為大學「USR（University Social Responsibility）」社會責任計畫成果之一，協助在地居酒屋品牌進行數位轉型，透過前端技術打造形象網站，強化店家品牌識別與顧客體驗。
 
-## Available Scripts
+本網站具備完整的菜單展示功能、品牌故事區塊、地點與營業資訊整合、手機與桌機皆友善的 UI 設計，並以模組化 React 架構開發，兼具美觀與維護性。
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🎯 專案目標
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 協助在地餐飲品牌進行 **數位形象建置**
+- 透過 React 技術提供客製化菜單展示與互動導覽功能
+- 培養學生跨域能力（前端開發、資料結構、RWD 設計、UIUX設計）
+- 展現學生在 USR 計畫中之 **實作貢獻與數位協作能力**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠 技術規格
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- ⚛️ **React 18**：以 component 為核心架構進行開發
+- 🎨 **Tailwind CSS**：快速實作 RWD 響應式設計
+- 🧭 **React Router DOM**：支援多頁面導航（首頁／菜單／品牌介紹）
+- 📂 **資料驅動呈現**：所有菜單內容皆以 `menuData.js` 結構渲染，支援中英文與分群
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📱 RWD 設計特色
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- 分類導覽 Grid，支援點擊高亮
+- 手機版本分類切換與圖片縮放效果
+- 頁面內容模組化（Quote 輪播、特色介紹、地圖嵌入等）
+- Back to Top 按鈕與當前分類顯示
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
