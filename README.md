@@ -17,10 +17,10 @@
 
 ## 🛠 技術規格
 
-- ⚛️ **React 18**：以 component 為核心架構進行開發
-- 🎨 **Tailwind CSS**：快速實作 RWD 響應式設計
-- 🧭 **React Router DOM**：支援多頁面導航（首頁／菜單／品牌介紹）
-- 📂 **資料驅動呈現**：所有菜單內容皆以 `menuData.js` 結構渲染，支援中英文與分群
+- **React 18**：以 component 為核心架構進行開發
+- **Tailwind CSS**：快速實作 RWD 響應式設計
+- **React Router DOM**：支援多頁面導航（首頁／菜單／品牌介紹）
+- **資料驅動呈現**：所有菜單內容皆以 `menuData.js` 結構渲染，支援中英文與分群
 
 ---
 
